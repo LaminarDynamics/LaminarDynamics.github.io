@@ -1,5 +1,3 @@
-// // 11-21-21
-
 var filesToAdd = [
     "./src/bible_kjv.json",
     "./src/index_mobile.css",
