@@ -1,0 +1,113 @@
+/* 11-17-21 */
+/* 11-21-21 */
+/* 11-27-21 */
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    /* background-image: url('../images/sturs.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+
+    overflow-x:hidden; 
+
+}
+
+.menu {
+    /* background-color: rgb(52, 133, 240); */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(167deg, rgba(2, 0, 36, 1) 0%, rgba(102, 79, 179, 1) 35%, rgba(35, 136, 157, 1) 100%);
+    opacity: 95%;
+    width: auto;
+    height: 50px;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+
+
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.show {
+    display: inline;
+    visibility: visible;
+}
+
+.verse {
+    font-family: "Audiowide", sans-serif;
+}
+
+.verse_div {
+    background-color: #fff;
+
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5c8db4;
+    background: #17141d;
+    /* box-shadow: -1rem 0 3rem #000; */
+    box-shadow: 1rem 0 5px rgb(53, 102, 100);
+
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition-duration: .4s;
+}
+
+/* .verse_div:hover {
+    transform: rotateX(90deg);
+} */
+
+
+.verse_num {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+select {
+    width: 205px;
+    font-size: 25px;
+    border-radius: 10%;
+
+    margin: auto;
+    margin-top: 5px;
+}
+
+
+/* Scrollbar  */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(24, 35, 192);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
