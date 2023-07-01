@@ -1,7 +1,7 @@
 // // 11-17-21
 // // 11-21-21
 
-
+alert("JS Working!");
 
 if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js").then(registration => {
