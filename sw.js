@@ -4,6 +4,7 @@ let filesToAdd = [
     "/",
     "sw.js",
     "index.html",
+    "images/apple.png",
     "src/bible_kjv.json",
     "src/index_mobile.css",
     "src/index.css",
